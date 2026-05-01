@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/user/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/9ad22014-983a-49a8-a886-d2869ce726f0/1fcfcbf5-e57c-4103-81f7-a4a06611c30e/skills/docx/**)",
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\user\\\\Desktop\\\\Expense_Tracker_API_Guide.docx\" -o output.md)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\user\\\\Desktop\\\\Expense_Tracker_API_Guide.docx\" unpacked/)",
+      "Bash(pip install:*)",
+      "Bash(python -m pip install defusedxml -q)",
+      "Bash(python -c ':*)",
+      "Read(//c/Users/user/Desktop/**)",
+      "Bash(where gh:*)",
+      "Bash(winget list:*)"
+    ]
+  }
+}
